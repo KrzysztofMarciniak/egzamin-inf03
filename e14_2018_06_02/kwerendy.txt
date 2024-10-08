@@ -1,0 +1,16 @@
+
+INSERT INTO pracownicy (imie, nazwisko, stanowisko) 
+VALUES ('Joanna', 'Dobrowolska', '2');
+
+SELECT imie, nazwisko
+FROM pracownicy
+WHERE stanowisko = '3';
+
+SELECT id, nazwa
+FROM dania
+WHERE typ = '1' AND cena < 25;
+
+UPDATE dania
+SET cena = cena + 1
+WHERE typ = '4';
+
