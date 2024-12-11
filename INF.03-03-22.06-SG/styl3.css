@@ -1,0 +1,40 @@
+body{
+    font-family: "Verdana";
+}
+.header{
+    background-color: seagreen;
+    color:white;
+    font-size:160%;
+    line-height: 150px;
+    height:260px;
+}
+.lewy{
+    width:75%;
+}
+.prawy{
+    width:25%;
+}
+.glowny{
+    background-color: mintcream;
+    padding:80px;
+}
+.footer{
+    background-color: seagreen;
+    color:white;
+    width:50%;
+    height:70px;
+    text-align: center;
+}
+input{
+    margin-bottom:20px;
+}
+img {
+    box-shadow: 15px 15px 10px DimGray;
+}
+a{
+    text-decoration: none;
+    background-color: MintCream;
+    color:seagreen;
+    padding:15px;
+    line-height: 70px;
+}

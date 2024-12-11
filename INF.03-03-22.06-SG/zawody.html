@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zawody wędkarskie</title>
+    <link rel="stylesheet" href="styl3.css">
+
+</head>
+<body>
+<div style="display:flex; flex-direction: column;">
+    <div style="display:flex; flex-flow: row; justify-content: space-between;" class="header">
+    <section class="lewy">
+        <h1>Zawody polskich wędkarzy</h1>
+    </section>
+    <section class="prawy">
+        <img src="zawody.jpg" alt="łowiska">
+    </section>
+    </div>
+    <section class="glowny">
+        <h3>Łowiska</h3>
+        <ul>
+            <li>
+                Zalew Wędgorwski
+            </li>
+            <li>
+                Zbiornik Bukówka
+            </li>
+            <li>
+                Jeziorko Bartbetowskie
+            </li>
+            <li>
+                Warta-Obrzycko
+            </li>
+        </ul>
+        <h3>Dodaj zawody wedkarskie</h3>
+        <form id="formularz" action="/INF.03-03-22.06-SG/zgloszenie.php" method="post">
+            <label for="lowisko">Łowisko</label>
+            <input type="text" id="lowisko" name="lowisko"><br>
+            <label for="data">Data</label>
+            <input type="date" id="data" name="data"><br>
+            <label for="sedzia">Sędzia</label>
+            <input type="text" id="sedzia" name="sedzia"><br>
+            <input type="submit" value="dodaj">
+            <button type="button" onclick="document.getElementById('formularz').reset();">czysc</button>
+        </form>
+    </section>
+        <div class="footer" style="display:flex; flex-direction: row; justify-content: space-between; width: 100%;">
+            <section class="stopka1">
+            <p>    <a href="kwerendy.txt">kwerendy.txt</a> </p>
+            </section>
+            <section class="stopka2">
+                <p>Stronę przygotował km</p>
+            </section>
+        </div>
+</div>
+</body>
+</html>
