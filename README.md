@@ -9,4 +9,4 @@ This repository contains practice materials and solutions for the INF.03 profess
 - Web application development
 
 ## License
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details. **Images are not subjected to this license.**
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details. **Images are not subjected to this license. UNLESS THEY ARE SCREENSHOTS.**
